@@ -7,8 +7,8 @@ import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(({ command, isPreview }) => {
   const base =
-    process.env.VITE_BASE_PATH ??
-    (command === 'build' || isPreview ? '/Akeray-LandLordOS/' : '/');
+  process.env.VITE_BASE_PATH ??
+  (command === 'build' || isPreview ? '/Akarai-V2/' : '/');
 
   return {
     base,
